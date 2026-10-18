@@ -1,0 +1,45 @@
+S7FT V1.6.1 - compilación 20261018.4 - Windows x64
+Dysco Exploration and Production / Field Tools / cloudLOGGER SCADA
+https://cloudloggerscada.com
+
+DIAGNÓSTICO DE PLC SIEMENS
+Localiza equipos, consulta identificación, firmware, estado de CPU y eventos.
+Organiza conexiones, revisa operaciones y exporta resultados desde Windows.
+
+INICIO
+1. Extrae el ZIP completo y ejecuta S7FT.exe.
+2. Si es necesario: Ayuda > Preparar comunicaciones Siemens.
+   Revisa la selección y completa los asistentes. Puede requerir administrador,
+   reinicio e interrumpir brevemente la red.
+3. Crea una conexión con la IP del PLC y comprueba la subred Ethernet.
+4. Diagnóstico y eventos > Actualizar interfaces > Ethernet > Consultar PLC.
+
+CONFIGURACIÓN DE ETHERNET
+Configurar mi NIC indica cuándo la PC ya está en la subred del PLC.
+Si hace falta, permite añadir una IP secundaria temporal con administrador.
+No cambia la IP del PLC, DNS ni gateway de la PC.
+El descubrimiento Ethernet puede requerir un controlador adicional.
+
+FUNCIONES Y COMPATIBILIDAD
+Identificación, firmware, RUN/STOP, eventos y consulta de inventario de red.
+Memoria y bloques requieren CPU, configuración y permisos compatibles.
+Las acciones de escritura y control son explícitas.
+No incluye descarga de proyectos TIA S7-1200/1500, edición LAD/FBD/SCL,
+actualización de firmware ni programación F-CPU.
+
+Las consultas de diagnóstico e inventario son manuales. Un error de consulta
+no equivale a PLC apagado ni a estado STOP/ERROR. Las fechas son del PLC;
+consultar no ajusta su reloj. Los módulos mostrados son los reportados.
+
+Seleccionar vistas o abrir proyectos no inicia comunicación. El analizador
+registra operaciones de S7FT. Pausar el visor no detiene la adquisición.
+Revisa proyectos e informes antes de compartir datos de equipos.
+
+CONTENIDO Y CONDICIONES
+S7FT.exe, LEEME.txt, LICENSE.txt y THIRD-PARTY-NOTICES.txt.
+Conserva los avisos de licencia junto al programa.
+
+GUÍAS Y SOPORTE
+https://github.com/DyscoEP/s7ft
+https://dyscoep.com/descargas/s7ft/
+Descarga el programa desde Releases: S7FT-Windows-x64.zip.

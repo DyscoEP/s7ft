@@ -1,0 +1,18 @@
+# Repositorio público de documentación; distribución mediante Releases.
+*.exe
+*.dll
+*.msi
+*.zip
+*.7z
+*.py
+*.pyc
+*.spec
+__pycache__/
+build/
+dist/
+diagnostics/
+*.s7ft
+.env
+.env.*
+*.pem
+*.key
